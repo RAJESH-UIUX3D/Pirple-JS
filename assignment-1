@@ -23,9 +23,9 @@ var songTech={
 //---Technicians worked for this song---
 var songTechnicians = {
 	writers: ['Dan Reynolds','Wayne Sermon','Ben McKee','Daniel Platzman','Justin Tranter'],
-	singers: ['Dan Reynolds],
-	musicians: [Dan Reynolds'],
-	composer: 'Dan Reynolds,
+	singers: ['Dan Reynolds'],
+	musicians: ['Dan Reynolds'],
+	composer: 'Dan Reynolds',
 	artist: 'Imagine Dragons'
 }
 
@@ -38,5 +38,23 @@ var licensedTo ='Imagine Dragons Studio';
 //---Song's release date---
 var releaseDate = '	February 1, 2017';
 
+console.log(songDetails.album);
+console.log(songDetails.song);
+console.log(songDetails.songTheme);
+console.log(songDetails.songFormat);
+console.log(songDetails.recordedYear);
+console.log(songMusic.genre);
+console.log(songMusic.musicStyle);
+console.log(songTech.duration);
+console.log(songTech.fileFormats);
+console.log(songTech.soundTrack);
+console.log(songTechnicians.writers);
+console.log(songTechnicians.singers);
+console.log(songTechnicians.musicians);
+console.log(songTechnicians.composer);
+console.log(songTechnicians.artist);
+console.log(producer);
+console.log(licensedTo);
+console.log(releaseDate)
 
 
