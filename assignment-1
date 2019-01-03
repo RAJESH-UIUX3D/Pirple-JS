@@ -1,0 +1,39 @@
+//---Song's details---
+var songDetails ={
+	album: 'Evolve',
+	song: 'Believer',
+	songTheme: 'American Rock Band',
+	songFormat: 'video',
+	recordedYear: '2016'
+}
+
+//---Details of it's music---
+var songMusic={
+	genre: 'pop rock',
+	musicStyle: 'pop music',	
+}
+
+//---Song's technical details---
+var songTech={
+	duration: '3 minutes 37 seconds',
+	fileFormats: ['mp3','mp4','mov'],
+	soundTrack: 'digital'
+}
+
+//---Technicians worked for this song---
+var songTechnicians = {
+	writers: ['Dan Reynolds','Wayne Sermon','Ben McKee','Daniel Platzman','Justin Tranter'],
+	singers: ['Dan Reynolds],
+	musicians: [Dan Reynolds'],
+	composer: 'Dan Reynolds,
+	artist: 'Imagine Dragons'
+}
+
+//----Producer of this song----
+var producer = 'Mattman & Robin';
+
+//----Song's License----
+var licensedTo ='Imagine Dragons Studio';
+
+//---Song's release date---
+var releaseDate = '	February 1, 2017';
