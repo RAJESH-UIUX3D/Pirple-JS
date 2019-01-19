@@ -8,17 +8,18 @@ Syntax:
 let <variable name> = <value>;
 
 Eg:
-let x = 0;
+let x = 10;
 function letTest(){
-  let x = 10;
-  return x;
+  let x = 20;
+  return x+=1;
 }
-console.log(letTest());
+
 console.log(x); 
+console.log(letTest());
 
 Output:
 10
-0
+21
 
 ------------------------------------------------------------------------------------------------------
 
@@ -48,4 +49,7 @@ Output:
 "uncaught TypeError: Assignment to constant variable"
 
 ------------------------------------------------------------------------------------------------------
+
+'var'
+
 
