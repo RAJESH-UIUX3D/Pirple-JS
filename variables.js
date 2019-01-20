@@ -52,7 +52,18 @@ Output:
 
 'var'
 Keyword 'var' declares a variable of any type. We can assign a value to it later.
-Un
-Simply declaring a variable has it's scope globally.
+Unassigned value of a variable declared using 'var' is treated as 'undefined'.
+Simply declaring a variable has global scope.
 We can re-declare a variable using 'var'. 
+
+Syntax:
+var <variable name> = <value>;
+or 
+var <varible name>;
+<variable name> = <value>;
+
+Eg:
+var x = 0;
+var lang = "C++";
+var scripts = ['HTML', 'CSS', 'JavaScript']
 
