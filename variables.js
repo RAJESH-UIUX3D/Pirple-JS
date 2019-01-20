@@ -51,5 +51,8 @@ Output:
 ------------------------------------------------------------------------------------------------------
 
 'var'
-
+Keyword 'var' declares a variable of any type. We can assign a value to it later.
+Un
+Simply declaring a variable has it's scope globally.
+We can re-declare a variable using 'var'. 
 
