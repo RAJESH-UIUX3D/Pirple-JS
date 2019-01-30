@@ -35,3 +35,5 @@ let cake = 'Vanilla' || 'Chocolate';
 if (cake != 'Chocolate'){
   console.log('This cake is '+cake); // --- Prints 'cake' value ('Vanilla')---
 }
+
+
