@@ -1,8 +1,10 @@
 Homework Assignment #3: Statements and Operators
 ----------------------------------------------------
+/*
 "All men are mortal
 Socrates is a man.
 Therefore, socrates is mortal."
+*/
 
 //---The following array states that 'Socrates' is a part of a collection of items referred to as "men"---
 const men =['Abraham','John','Kevin','Socrates','Chris'];
@@ -24,9 +26,11 @@ console.log(
 
 ========================================================================================================================================
 
+/*
 "This cake is either vanilla or chocolate.
 This cake is not chocolate.
 Therefore, this cake is vanilla."
+*/
 
 //---The following line defines the boolean value of a variable 'cake' is either 'Vanilla' or 'Chocolate'---
 let cake = 'Vanilla' || 'Chocolate';
